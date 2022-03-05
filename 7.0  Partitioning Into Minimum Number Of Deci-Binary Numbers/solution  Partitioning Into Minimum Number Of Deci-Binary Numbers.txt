@@ -1,0 +1,12 @@
+class Solution:
+    def minPartitions(self, n: str) -> int:
+        top = 0
+        for num in n:
+            if int(num)> top:
+                top = int(num)
+                
+        return top
+  
+
+
+return max(n)
